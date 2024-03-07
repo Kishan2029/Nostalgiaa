@@ -1,4 +1,4 @@
-import { lightBlue } from '@material-ui/core/colors';
+
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
@@ -21,6 +21,5 @@ export default makeStyles((theme) => ({
   },
   buttonSubmit: {
     marginBottom: 10,
-    backgroundColor:lightBlue
   },
 }));

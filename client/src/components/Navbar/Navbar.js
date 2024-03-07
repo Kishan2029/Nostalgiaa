@@ -15,8 +15,6 @@ const Navbar = () => {
   const location = useLocation();
   const history = useHistory();
   const classes = useStyles();
-  // console.log(user);
-  
 
   const logout = () => {
     dispatch({ type: actionType.LOGOUT });
@@ -41,12 +39,10 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
-        {/* <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">Nostalgia</Typography> */}
-        <img component={Link} to="/" src={memoriesText} alt="icon" height="45px" />
+        <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">Nostalgia</Typography>
+        
         <img className={classes.image} src={memoriesLogo} alt="icon" height="40px" />
       </Link>
-
-      
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
           <div className={classes.profile}>
