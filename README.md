@@ -26,7 +26,7 @@
 <br>
 
 ## :dart: About
-Nostalgia, a MERN (MongoDB, Express JS, React, NodeJS) full stack application, provides users with a focused and intimate space to capture, relive, and share their most cherished memories through the written word. In contrast to mainstream social media platforms that prioritize video content and offer a myriad of features, Nostalgia simplifies the process by centering solely on written memories. By enabling users to create, revisit, update, and delete memories, Nostalgia aims to rekindle the appreciation for personal reflection and storytelling in the digital age, fostering a community where users can connect over shared experiences and the enduring power of nostalgia.
+Created fullstack MERN application to help a developer to connect with other developers. Developer can view the profile of other developers even if they are not logged in. But if they want to create post or an interact with a post they must login. App is using github api to fetch the latest projects of the developer.
 ## :sparkles: Features
 
 - Users can Sign In/ Sign Up
